@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container_default {
+  max-width: 1268px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav .dropdown {
+  position: relative;
+}
+
+.nav .dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.dropdownContent a {
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.downloadButton button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.downloadButton button:hover {
+  background-color: #555;
+}
